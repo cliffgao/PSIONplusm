@@ -1,5 +1,5 @@
-# PSIONplusm
-This is a stand-alone version of PSIONplusm for accurate multi-label prediction of ion channels and their types.
+# PSIONplus^m
+This is a stand-alone version of PSIONplus^m for accurate multi-label prediction of ion channels and their types.
 
 # Webserver
 You can also use our server at:  
@@ -34,7 +34,7 @@ Take 'example.fasta' for example,
 3.change the db="/library/nr/nr" with your nr database path.  
 
 
-# Run the PSIONplusm  
+# Run the PSIONplus^m  
 
 Usage: pred.py  -i fastafile  -m model(1/2/3/4/5)  
 Options:
