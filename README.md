@@ -1,7 +1,7 @@
 # PSIONplusm
 This is a stand-alone version of PSIONplusm for accurate multi-label prediction of ion channels and their types.
 
-# webserver
+# Webserver
 You can also use our server at:  
 https://yanglab.nankai.edu.cn/PSIONplusm/
 
@@ -16,11 +16,11 @@ http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/
 ## 3.DISOPRED  
 Download the DISOPRED 3.3 from:  
 http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/  
-## 4. PSIBLAST and BLAST  
+## 4.PSIBLAST and BLAST  
 Download the PSIBLAST from  
 ftp://ftp.ncbi.nlm.nih.gov/blast/executables/release/2.2.6/  
 
-## Run PSIPRED,DISOPRED, SPINE X, PSIBLAST
+## 5.Run PSIPRED,DISOPRED, SPINE X, PSIBLAST
 
 1. run PSIPREd and get the result named target.diso.  Copy the target.diso into ./output/example/  
 2. run PSIBLAST and get the result named target.pssm. Copy the target.pssm into ./output/example/  
@@ -50,6 +50,9 @@ Usage: pred.py  -i id  -t type(1/2/3/4/5)
 2. cp example.fasta ./output/example/target.fasta  
 3. python pred.py -i example -t 5  
 4. result are in the ./ouput/example/output.ION (1)  output.VLG (2) output.VGS (3) output.SEQs (4) output.SEQ (5)  
+
+# Contact
+If you have any questions, please contact  _gaojz AT nankai.edu.cn_ 
 
 # Reference  
 
