@@ -30,8 +30,8 @@ ftp://ftp.ncbi.nlm.nih.gov/blast/executables/release/2.2.6/
 # Change the Parameters
 
 1.open the pred.py  
-2.change the NCBIdir="/home/yangjy/I-TASSER/I-TASSER4.4/blast/bin" with your psiblast path (line 13)  
-3.change the db="/library/nr/nr" with your nr database path (line14)  
+2.change the NCBIdir="/home/XXX/I-TASSER/I-TASSER4.4/blast/bin" with your psiblast path.  
+3.change the db="/library/nr/nr" with your nr database path.  
 
 
 # run the PSIONplusm  
