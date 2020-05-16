@@ -1,4 +1,4 @@
-# PSIONplus^m
+# PSIONplus^m^
 This is a stand-alone version of PSIONplus^m for accurate multi-label prediction of ion channels and their types.
 
 # Webserver
