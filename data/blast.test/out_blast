@@ -1,0 +1,60 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q12324
+         (675 letters)
+
+Database: Train.Types.txt 
+           148 sequences; 114,342 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+  Database: Train.Types.txt
+    Posted date:  Mar 26, 2015  5:19 PM
+  Number of letters in database: 114,342
+  Number of sequences in database:  148
+  
+Lambda     K      H
+   0.323    0.138    0.411 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 148
+Number of Hits to DB: 135,042
+Number of extensions: 5796
+Number of successful extensions: 43
+Number of sequences better than 1.0e-03: 0
+Number of HSP's gapped: 43
+Number of HSP's successfully gapped: 0
+Length of query: 675
+Length of database: 114,342
+Length adjustment: 74
+Effective length of query: 601
+Effective length of database: 103,390
+Effective search space: 62137390
+Effective search space used: 62137390
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.9 bits)
+S2: 82 (36.2 bits)
