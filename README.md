@@ -7,25 +7,25 @@ https://yanglab.nankai.edu.cn/PSIONplusm/
 
 
 # The software need to install:
-## 1.SPINE X  
-Download the source code of Real SPINE X and install it.  
-http://sparks-lab.org/SPINE-X/  
+## 1.SPINE-X  
+Download the source code of Real SPINE-X and install it.  
+https://sparks-lab.org/downloads/  
 ## 2.PSIPRED 3.3  
 Download the PSIPRED from:  
-http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/
+http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/old_versions/
 ## 3.DISOPRED  
-Download the DISOPRED 3.3 from:  
-http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/  
+Download the DISOPRED 3.16 from:  
+http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/ 
 ## 4.PSIBLAST and BLAST  
-Download the PSIBLAST from  
-ftp://ftp.ncbi.nlm.nih.gov/blast/executables/release/2.2.6/  
+Download the PSIBLAST 2.2.6 from  
+https://ftp.ncbi.nih.gov/blast/executables/
 
 ## 5.Run PSIPRED,DISOPRED, SPINE X, PSIBLAST
-
-1. run PSIPREd and get the result named target.diso.  Copy the target.diso into ./output/example/  
-2. run PSIBLAST and get the result named target.pssm. Copy the target.pssm into ./output/example/  
-3. run SPINE X and get the result named target.spXout. Copy the target.spXout into ./output/example/spXout  
-4. run PSIPRED and get the result named target.ss. Copy the target.ss into ./output/example/  
+Take 'example.fasta' for example,
+1. run PSIPREd and get the result named target.diso.   Copy the target.diso into ./output/example/  
+2. run PSIBLAST and get the result named target.pssm.  Copy the target.pssm into ./output/example/  
+3. run SPINE-X and get the result named target.spXout. Copy the target.spXout into ./output/example/spXout  
+4. run PSIPRED and get the result named target.ss.     Copy the target.ss into ./output/example/  
 
 # Change the Parameters
 
@@ -36,20 +36,19 @@ ftp://ftp.ncbi.nlm.nih.gov/blast/executables/release/2.2.6/
 
 # run the PSIONplusm  
 
-Usage: pred.py  -i id  -t type(1/2/3/4/5)  
+Usage: pred.py  -i fastafile  -m model(1/2/3/4/5)  
 
-1 PSIONplus: discrimination for ion channel and non-ion channel (ION)  
-2 PSIONplus: discrimination for voltage-gated and ligand-gated channel (VLG)  
-3 PSIONplus: discrimination for four types ion channel (VGS)  
+1 PSIONplus:  discrimination for ion channel and non-ion channel (ION)  
+2 PSIONplus:  discrimination for voltage-gated and ligand-gated channel (VLG)  
+3 PSIONplus:  discrimination for four types ion channel (VGS)  
 4 PSIONplusm: sequential prediction for single-label prediction  
 5 PSIONplusm: sequential prediciton for multi-label prediction  
 
 
 # Example
-1. mkdir ./output/example  
-2. cp example.fasta ./output/example/target.fasta  
-3. python pred.py -i example -t 5  
-4. result are in the ./ouput/example/output.ION (1)  output.VLG (2) output.VGS (3) output.SEQs (4) output.SEQ (5)  
+
+python pred.py -i example.fasta -m 2  
+\### output is ./output/example/output.VLG.psionplus.predict  
 
 # Contact
 If you have any questions, please contact  _gaojz AT nankai.edu.cn_ 
