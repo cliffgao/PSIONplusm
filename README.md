@@ -34,10 +34,10 @@ Take 'example.fasta' for example,
 3.change the db="/library/nr/nr" with your nr database path.  
 
 
-# run the PSIONplusm  
+# Run the PSIONplusm  
 
 Usage: pred.py  -i fastafile  -m model(1/2/3/4/5)  
-
+Options:
 1 PSIONplus:  discrimination for ion channel and non-ion channel (ION)  
 2 PSIONplus:  discrimination for voltage-gated and ligand-gated channel (VLG)  
 3 PSIONplus:  discrimination for four types ion channel (VGS)  
