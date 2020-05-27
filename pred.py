@@ -93,7 +93,8 @@ options:
         os.system('mv target.mat target.pssm')
     os.chdir(pwd)
     ## 
-    os.system("chmod +x ./bin/PSIONplus4multi_labels.sh")
+    #os.system("chmod +x ./bin/PSIONplus4multi_labels.sh")
+    os.system("chmod +x ./bin/*")
     if atype in ['1','2','3']:  
         os.system('%s/bin/PSIONplus4multi_labels.sh %s %s'%(pwd,aid,atype))
         # output the message 
