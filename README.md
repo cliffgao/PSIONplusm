@@ -22,7 +22,7 @@ https://ftp.ncbi.nih.gov/blast/executables/
 
 ## 5.Run PSIPRED,DISOPRED, SPINE X, PSIBLAST
 Take 'example.fasta' for example,
-1. run PSIPREd and get the result named target.diso.   Copy the target.diso into ./output/example/  
+1. run DISOPRED and get the result named target.diso.   Copy the target.diso into ./output/example/  
 2. run PSIBLAST and get the result named target.pssm.  Copy the target.pssm into ./output/example/  
 3. run SPINE-X and get the result named target.spXout. Copy the target.spXout into ./output/example/spXout  
 4. run PSIPRED and get the result named target.ss.     Copy the target.ss into ./output/example/  
@@ -30,7 +30,7 @@ Take 'example.fasta' for example,
 # Change the Parameters
 
 1.open the pred.py  
-2.change the NCBIdir="/home/XXX/I-TASSER/I-TASSER4.4/blast/bin" with your psiblast path.  
+2.change the NCBIdir="/home/XXX/XXX/blast/bin" with your psiblast path.  
 3.change the db="/library/nr/nr" with your nr database path.  
 
 
@@ -57,7 +57,13 @@ If you have any questions, please contact  _gaojz AT nankai.edu.cn_
 
 Gao J, Cui W, Sheng Y, Ruan J, Kurgan L.PSIONplus: Accurate Sequence-Based Predictor of Ion Channels and Their Types,PLoS One, 2016, 11(4):e0152964.  
 
-Gao J, Miao Z, Zhang Z, Wei H, Kurgan L. Prediction of Ion Channels and their Types from Protein Sequences: Comprehensive Review and Comparative Assessment. Current Drug Targets. 2019;20(5):579–592. doi:10.2174/1389450119666181022153942  
+Gao J, Miao Z, Zhang Z, Wei H, Kurgan L. Prediction of Ion Channels and their Types from Protein Sequences: Comprehensive Review and Comparative Assessment. Current Drug Targets. 2019;20(5):579–592. doi:10.2174/1389450119666181022153942
+        
+        
+        
+        
+        
+          
 
 David T. Jones, Domenico Cozzetto, DISOPRED3: precise disordered region predictions with annotated protein-binding activity, Bioinformatics, Volume 31, Issue 6, 15 March 2015, Pages 857–863, https://doi.org/10.1093/bioinformatics/btu744  
 
